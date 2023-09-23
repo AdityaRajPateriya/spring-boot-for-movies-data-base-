@@ -20,10 +20,10 @@ public class Movie {
     private String imdbId;
     private String title;
     private String releaseDate;
-    private String treailerLink;
+    private String trailerLink;
     private String poster;
     private List<String> genres;
-    private List<String>  backdrop;
+    private List<String>  backdrops;
     @DocumentReference              //it will only store IDs of reviews in database while reviews will be stored separate collection
                                     //this is know as manual reference relationship
     private List<Review> reviewIds;
