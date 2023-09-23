@@ -1,0 +1,13 @@
+Step 1
+
+configure mongoDB using .env file and application.properties in resource folder, try running main function,
+if everything is right then result Whitelabel Error Page will be displayed on local host
+
+Step 2
+we are dealing with two types of data movies and reviews so we will create there own separate classes (models) and define related varibales
+
+Step 3
+
+writing rest api controllers (MovieController class)
+pulling data from data base into Movie model for that we will need a service class and repository class(interface)
+Service class is used to write database access methods
