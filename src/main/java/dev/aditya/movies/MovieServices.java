@@ -15,10 +15,15 @@ public class MovieServices {
     private MovieRepository movieRepository;
 
     public List<Movie> allMovies() {
-        return  movieRepository.findAll();   //predefined in MongoRepository which return list data type that we have passed in the class ex MongoRepository<Movie, ObjectId> here list of movies
+        return movieRepository.findAll();   //predefined in MongoRepository which return list data type that we have passed in the class ex MongoRepository<Movie, ObjectId> here list of movies
     }
-    public Optional<Movie> singleMovie(ObjectId id)
+// here we are passing id thru URI but if we dont wanna do that then we have to add custome mathod in MovieRepository
+//    public Optional<Movie> singleMovie(ObjectId id)
+//    {
+//        return movieRepository.findById(id);
+//    }
+    public Optional<Movie> singleMovie(String imdbId)
     {
-        return movieRepository.findById(id);
+        return movieRepository.findMovieById(imdbId);         //as defined in MoveRepository
     }
 }
