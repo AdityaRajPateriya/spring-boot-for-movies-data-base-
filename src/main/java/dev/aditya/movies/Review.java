@@ -15,4 +15,10 @@ public class Review {
     @Id
     private ObjectId id;
     private String body;
+
+    // as ids are auto generated we cannot pass id to this clas
+
+    public Review(String body) {
+        this.body = body;
+    }
 }

@@ -26,6 +26,7 @@ public class MovieController {
         return new ResponseEntity<List<Movie>>(movieServices.allMovies(),HttpStatus.OK);
     }
 
+
     @GetMapping("/{imdbId}")        //id name need not to b same as original id name in place of imdbId we can use abc that will also work
     public  ResponseEntity<Optional<Movie>> getSingleMovie(@PathVariable String imdbId)        //it tells spring that we will be passing the information we got in mapping as pathVariable
     {

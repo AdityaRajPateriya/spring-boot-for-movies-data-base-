@@ -22,8 +22,9 @@ public class MovieServices {
 //    {
 //        return movieRepository.findById(id);
 //    }
+// we dont wnat to expose ObjectId of our collection to the Public
     public Optional<Movie> singleMovie(String imdbId)
     {
-        return movieRepository.findMovieById(imdbId);         //as defined in MoveRepository
+        return movieRepository.findMovieByImdbId(imdbId);         //as defined in MoveRepository
     }
 }

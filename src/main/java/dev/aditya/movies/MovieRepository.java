@@ -9,6 +9,6 @@ import java.util.Optional;
 
 @Repository
 public interface MovieRepository extends MongoRepository<Movie, ObjectId> {
-    Optional<Movie> findMovieById(String imdbId);
-
+    Optional<Movie> findMovieByImdbId(String imdbId);
+//this is a dynamic query we can define such for any property name in model class as long as they are unique
 }
