@@ -1,9 +1,9 @@
 # MovieHub Project
 
-Welcome, MovieHub is a web-based java powered platform  It's designed to provide users with an intuitive interface for exploring, searching, and managing movie-related information. 
+Welcome, MovieHub is a web-based Java-powered platform  It's designed to provide users with an intuitive interface for exploring, searching, and managing movie-related information. 
 
 ## Introduction
-Above is server side implementation of MovieHub webise using spring boot frame work for creating RESTful api end point to access movies and add or access reviews 
+Above is the side implementation of MovieHub website using Spring boot framework for creating a RESTful API endpoint to access movies and add or access reviews 
 
 ## Methodology
 
