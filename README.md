@@ -1,4 +1,4 @@
-# Movie Project
+# MovieHub Project
 
 Welcome, MovieHub is a web-based java powered platform  It's designed to provide users with an intuitive interface for exploring, searching, and managing movie-related information. 
 
