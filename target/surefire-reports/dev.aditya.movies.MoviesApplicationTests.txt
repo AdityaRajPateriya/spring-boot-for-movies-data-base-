@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: dev.aditya.movies.MoviesApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.295 s - in dev.aditya.movies.MoviesApplicationTests
